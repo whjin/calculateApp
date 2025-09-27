@@ -1,0 +1,78 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main {
+  width: 420px;
+  height: fit-content;
+  background: #eaecf3;
+  padding: 20px 16px;
+  border-radius: 16px;
+}
+.calc-show {
+  width: 100%;
+  height: 120px;
+  max-width: 100%;
+  box-sizing: border-box;
+  border-radius: 18px;
+  border: none;
+  outline: none;
+  background: #fff;
+  font-size: 36px;
+  font-weight: bold;
+  padding: 0 10px;
+}
+.calc-show:first-child {
+  text-align: right;
+  word-break: break-all;
+  overflow: auto;
+  display: grid;
+  align-items: center;
+}
+.expression {
+  font-size: 24px;
+  opacity: 0.5;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.calc-operate {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+.btn-key {
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  font-size: 25px;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: inset 1px 1px 1px 0px rgba(255, 255, 255, 0.8), inset -1px -1px 1px 0px rgba(40, 49, 85, 0.3), 1px 1px 3px 0px rgba(40, 49, 85, 0.1);
+}
+.remove-shadow {
+  box-shadow: none;
+  border: none;
+  outline: none;
+  opacity: 0.6;
+}
+.brand {
+  color: #283155;
+  font-size: 16px;
+  opacity: 0.5;
+  margin-top: 16px;
+}
