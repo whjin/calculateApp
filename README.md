@@ -1,2 +1,0 @@
-# calculateApp
-**A Simple Calculator**
