@@ -131,6 +131,8 @@
     "h5" : {
         "router" : {
             "mode" : "hash"
-        }
+        },
+        "title" : "简易计算器",
+        "template" : "unpackage/dist/build/web/index.html"
     }
 }
